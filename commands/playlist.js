@@ -644,12 +644,12 @@ await interaction.editReply({
               .setAuthor({
           name: 'Top Albums',
           iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/j6vCWBgMUw'
         })
               .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
               .setColor(client.config.embedColor)
               .setDescription('TimeOut!')
-              .setFooter({ text: 'YouTube - RTX GAMING' })
+              .setFooter({ text: 'YouTube - ExoticLeo' })
             return interaction.editReply({ embeds: [embed], components: [button] }).catch(e => { })
 
           })
